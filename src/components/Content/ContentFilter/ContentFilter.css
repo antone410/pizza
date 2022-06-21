@@ -1,0 +1,18 @@
+.open {
+ display: flex;
+ flex-direction: column;
+ height: 350px;
+ border: 2px solid black;
+}
+
+.title {
+  border: 2px solid black;
+ margin: 5px 0;
+ padding: 10px;
+}
+
+.ingredients {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
