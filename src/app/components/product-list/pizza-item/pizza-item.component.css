@@ -1,0 +1,21 @@
+.product-item {
+  height: 300px;
+  width: 300px;
+  border: 2px dashed black;
+  margin: 5px;
+  padding: 10px;
+}
+
+.product-item__title {
+  color: green;
+}
+
+.product-item__ingredient-list {
+}
+
+.product-item__ingredient-item {
+  margin-left: 3px;
+}
+
+.product-item__add-button {
+}

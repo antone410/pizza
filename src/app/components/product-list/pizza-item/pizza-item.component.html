@@ -1,0 +1,20 @@
+<div class="product-item">
+  <h3 class="product-item__title">
+    {{pizzaItem.title}}
+  </h3>
+  <div class="product-item__ingredient-list">
+    <span class="product-item__ingredient-item"
+          *ngFor="let ingredient of pizzaItem.ingredients">{{ingredient + ',' | titlecase}}</span>
+  </div>
+  <div>
+<!--    TODO: решить проблему с атрибутом checked-->
+    <input type="radio" id="stdSize" name="size" />
+    <label for="stdSize">{{pizzaItem.size.std}}</label>
+    <input type="radio" id="lgSize" name="size" />
+    <label for="lgSize">{{pizzaItem.size.lg}}</label>
+
+  </div>
+  <button class="product-item__add-button">
+    add
+  </button>
+</div>
